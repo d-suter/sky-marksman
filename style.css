@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E8E1D9;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.title, .gameOverText {
+    font-family: 'Jersey 20 Charted', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block; 
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#howToButton {
+    background-color: #FFA500; 
+}
+
+.duck {
+    position: absolute;
+    width: 50px;  
+    cursor: crosshair;
+    transition: top 0.5s linear;  
+}
