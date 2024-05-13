@@ -11,7 +11,7 @@ document.getElementById('startButton').addEventListener('click', function () {
 });
 
 document.getElementById('howToButton').addEventListener('click', function () {
-    window.location.href = 'rules.html';
+    window.location.href = 'rules';
 });
 
 let currentDucks = 0;
