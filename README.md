@@ -1,6 +1,6 @@
-# Sky Marksman
+![Banner](img/Banner.png)
 
-Welcome to **Sky Marksman**, an interactive web-based shooting game where your aim is to shoot ducks that fly across your screen. The game increases in difficulty by adding more ducks every few seconds. Can you keep up?
+Welcome to [**Sky Marksman**](https://sky-marksman.vercel.app/), an interactive web-based shooting game where your aim is to shoot ducks that fly across your screen. The game increases in difficulty by adding more ducks every few seconds. Can you keep up?
 
 ## Features
 

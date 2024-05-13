@@ -1,6 +1,6 @@
 body {
-    font-family: 'Arial', sans-serif; /* Keep Arial for the body text for better readability */
-    background-color: #FDF2AE; /* Light sky blue, matching the background */
+    font-family: 'Arial', sans-serif;
+    background-color: #FDF2AE;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -13,11 +13,11 @@ body {
 }
 
 .title, .gameOverText {
-    font-family: 'Jolly Lodger', cursive; /* Updated font */
+    font-family: 'Jolly Lodger', cursive;
     font-size: 36px;
-    color: #FFFFFF; /* White for better contrast */
+    color: #FFFFFF;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #000000; /* Black shadow for better readability */
+    text-shadow: 2px 2px 4px #000000;
 }
 
 button {
@@ -25,7 +25,7 @@ button {
     font-size: 20px;
     cursor: pointer;
     border: none;
-    background-color: #608926; /* Darker blue to stand out against the sky */
+    background-color: #608926;
     color: white;
     border-radius: 5px;
     margin-top: 10px;
@@ -36,7 +36,7 @@ button {
 }
 
 #howToButton {
-    background-color: #ECAF12; /* Gold color to make it distinctive */
+    background-color: #ECAF12;
 }
 
 .duck {

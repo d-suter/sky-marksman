@@ -1,4 +1,4 @@
-document.getElementById('startButton').addEventListener('click', function() {
+document.getElementById('startButton').addEventListener('click', function () {
     const gameContainer = document.getElementById('gameContainer');
     gameContainer.innerHTML = '';
     gameContainer.style.display = 'block';
@@ -10,7 +10,7 @@ document.getElementById('startButton').addEventListener('click', function() {
     }, 5000);
 });
 
-document.getElementById('howToButton').addEventListener('click', function() {
+document.getElementById('howToButton').addEventListener('click', function () {
     window.location.href = 'rules.html';
 });
 
@@ -52,7 +52,7 @@ function createDuck() {
         }
     }, 100);
 
-    duck.addEventListener('click', function() {
+    duck.addEventListener('click', function () {
         clearInterval(interval);
         duck.remove();
         currentDucks--;
@@ -70,3 +70,4 @@ function endGame() {
 setInterval(() => {
     level++;
 }, 5000);
+
