@@ -1,3 +1,4 @@
+// device-check.js
 function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 }
@@ -9,8 +10,8 @@ function displayMobileWarning() {
     warningDiv.style.left = "0";
     warningDiv.style.width = "100%";
     warningDiv.style.height = "100%";
-    warningDiv.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
-    warningDiv.style.color = "black";
+    warningDiv.style.backgroundColor = "#E8BFCD"; // Updated background color
+    warningDiv.style.color = "#01003B"; // Updated text color
     warningDiv.style.display = "flex";
     warningDiv.style.justifyContent = "center";
     warningDiv.style.alignItems = "center";

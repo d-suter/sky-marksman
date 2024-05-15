@@ -1,6 +1,9 @@
+
+
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #FDF2AE;
+    background-color: #E8BFCD;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -14,10 +17,10 @@ body {
 
 .title, .gameOverText {
     font-family: 'Jolly Lodger', cursive;
-    font-size: 36px;
-    color: #FFFFFF;
+    font-size: 100px;
+    color: #01003B;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 5px 5px 5px #ffffff;
 }
 
 button {
@@ -25,7 +28,7 @@ button {
     font-size: 20px;
     cursor: pointer;
     border: none;
-    background-color: #608926;
+    background-color: #00C2D7;
     color: white;
     border-radius: 5px;
     margin-top: 10px;
@@ -36,7 +39,7 @@ button {
 }
 
 #howToButton {
-    background-color: #ECAF12;
+    background-color: #BAB4DD;
 }
 
 .duck {
@@ -46,10 +49,28 @@ button {
     transition: top 0.5s linear;
 }
 
-.title, .gameOverText {
+.rules {
+    text-align: left;
+    margin: 20px;
+    color: #01003B;
+}
+
+.rules p {
+    margin: 10px 0;
+}
+
+.rules h3 {
+    font-size: 24px;
     font-family: 'Jolly Lodger', cursive;
-    font-size: 100px;
-    color: #00023F;
+    color: #01003B;
+    margin-bottom: 5px;
+}
+
+.rules h2 {
+    font-size: 40px;
+    font-family: 'Jolly Lodger', cursive;
+    color: #01003B; /* Same as text color */
+    text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px #C891AF;
 }
