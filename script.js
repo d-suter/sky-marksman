@@ -3,11 +3,13 @@ document.getElementById('startButton').addEventListener('click', function () {
     gameContainer.innerHTML = '';
     gameContainer.style.display = 'block';
     document.getElementById('gameOver').style.display = 'none';
+    level = 1; // Reset the level when the game starts
     startGame(3);
     if (gameInterval) clearInterval(gameInterval);
     gameInterval = setInterval(() => {
         addDucks(2);
     }, 5000);
+    startLevelInterval(); // Start the level interval
 });
 
 document.getElementById('howToButton').addEventListener('click', function () {
@@ -17,6 +19,7 @@ document.getElementById('howToButton').addEventListener('click', function () {
 let currentDucks = 0;
 let gameInterval;
 let level = 1;
+let levelInterval;
 
 function startGame(initialDucks) {
     currentDucks = initialDucks;
@@ -62,12 +65,15 @@ function createDuck() {
 
 function endGame() {
     clearInterval(gameInterval);
+    clearInterval(levelInterval); // Clear the level interval when the game ends
     document.getElementById('gameContainer').style.display = 'none';
     document.getElementById('gameOver').style.display = 'block';
     document.querySelector('.gameOverText').textContent = 'Game Over! You reached level ' + level;
 }
 
-setInterval(() => {
-    level++;
-}, 5000);
-
+function startLevelInterval() {
+    if (levelInterval) clearInterval(levelInterval);
+    levelInterval = setInterval(() => {
+        level++;
+    }, 5000);
+}
